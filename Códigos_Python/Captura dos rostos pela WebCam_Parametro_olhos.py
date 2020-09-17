@@ -1,8 +1,8 @@
 import cv2
 import numpy as np
  
-classificador = cv2.CascadeClassifier('C:/Users/Davi/Desktop/PESSOAL/PROGRAMAS/VC/haarcascade/haarcascade_frontalface_default.xml') # Parametros que definem um rosto
-classificadorOlho = cv2.CascadeClassifier ('C:/Users/Davi/Desktop/PESSOAL/PROGRAMAS/VC/haarcascade/haarcascade_eye.xml') # Parametros que definem um olho
+classificador = cv2.CascadeClassifier('../haarcascade/haarcascade_frontalface_default.xml') # Parametros que definem um rosto
+classificadorOlho = cv2.CascadeClassifier ('../haarcascade/haarcascade_eye.xml') # Parametros que definem um olho
 camera = cv2.VideoCapture(0)  #instancia o uso da webcam
 amostra = 1 # Base para poder acompanhar o numero de amostras
 numeroAmostras = 25 #Número total de amostras
