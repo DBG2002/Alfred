@@ -1,7 +1,7 @@
 
 import cv2
  
-faceCascade = cv2.CascadeClassifier('C:/Users/Davi/Desktop/PESSOAL/PROGRAMAS/VC/haarcascade/haarcascade_frontalface_default.xml')
+faceCascade = cv2.CascadeClassifier('../haarcascade/haarcascade_frontalface_default.xml')
  
 webcam = cv2.VideoCapture(0)  #instancia o uso da webcam
  
